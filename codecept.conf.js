@@ -27,6 +27,7 @@ exports.config = {
 					'--disable-web-security',
 					'--enable-potentially-annoying-security-features',
 					'--enable-site-per-process',
+					'--user-data-dir=C:\\Users\\jbUser\\AppData\\Local\\Google\\Chrome\\User Data Test',
 				],
 				ignoreHTTPSErrors: true,
 			}

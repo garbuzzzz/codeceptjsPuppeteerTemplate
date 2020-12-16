@@ -1,0 +1,61 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1608130615330' stop='1608130634112'>
+    <name>test:</name>
+    <title>test:</title>
+    <test-cases>
+        <test-case start='1608130615332' status='failed' stop='1608130624452'>
+            <name>test something | {"name":"Pavel","lastName":"Garbuz"}</name>
+            <title>test something | {"name":"Pavel","lastName":"Garbuz"}</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1608130617818' status='passed' stop='1608130619703'>
+                    <name>I am on page "http://google.com"</name>
+                    <title>I am on page "http://google.com"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1608130619704' status='failed' stop='1608130624451'>
+                    <name>I see "input[title="search"]"</name>
+                    <title>I see "input[title="search"]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Last Seen Screenshot' source='272a6a91-9f59-45a0-8009-3553e304d3c6-attachment.png' type='image/png' size='50292'/>
+            </attachments>
+            <failure>
+                <message></message>
+                <stack-trace>undefined</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1608130625318' status='failed' stop='1608130633330'>
+            <name>test something | {"name":"Marina","lastName":"Nehay"}</name>
+            <title>test something | {"name":"Marina","lastName":"Nehay"}</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1608130625947' status='passed' stop='1608130628610'>
+                    <name>I am on page "http://google.com"</name>
+                    <title>I am on page "http://google.com"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1608130628610' status='failed' stop='1608130633330'>
+                    <name>I see "input[title="search"]"</name>
+                    <title>I see "input[title="search"]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Last Seen Screenshot' source='9bb20c2e-dcfe-4d83-8e71-1f86eff67a1a-attachment.png' type='image/png' size='90122'/>
+            </attachments>
+            <failure>
+                <message></message>
+                <stack-trace>undefined</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

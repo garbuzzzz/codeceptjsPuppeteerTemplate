@@ -1,0 +1,61 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1608130851066' stop='1608130886513'>
+    <name>test:</name>
+    <title>test:</title>
+    <test-cases>
+        <test-case start='1608130851076' status='passed' stop='1608130867098'>
+            <name>test something | {"name":"Pavel","lastName":"Garbuz"}</name>
+            <title>test something | {"name":"Pavel","lastName":"Garbuz"}</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1608130851769' status='passed' stop='1608130854342'>
+                    <name>I am on page "http://google.com"</name>
+                    <title>I am on page "http://google.com"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1608130860321' status='passed' stop='1608130861359'>
+                    <name>I see "Google"</name>
+                    <title>I see "Google"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1608130861359' status='passed' stop='1608130867098'>
+                    <name>I fill field "input.gLFyf.gsfi[name="q"]", "Pavel"</name>
+                    <title>I fill field "input.gLFyf.gsfi[name="q"]", "Pavel"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1608130867280' status='passed' stop='1608130886357'>
+            <name>test something | {"name":"Marina","lastName":"Nehay"}</name>
+            <title>test something | {"name":"Marina","lastName":"Nehay"}</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1608130867864' status='passed' stop='1608130870617'>
+                    <name>I am on page "http://google.com"</name>
+                    <title>I am on page "http://google.com"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1608130875866' status='passed' stop='1608130881336'>
+                    <name>I see "Google"</name>
+                    <title>I see "Google"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1608130881336' status='passed' stop='1608130886357'>
+                    <name>I fill field "input.gLFyf.gsfi[name="q"]", "Marina"</name>
+                    <title>I fill field "input.gLFyf.gsfi[name="q"]", "Marina"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

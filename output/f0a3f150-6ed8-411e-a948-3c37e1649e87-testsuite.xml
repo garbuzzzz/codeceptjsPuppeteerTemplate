@@ -1,0 +1,67 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1608131450174' stop='1608131518087'>
+    <name>test:</name>
+    <title>test:</title>
+    <test-cases>
+        <test-case start='1608131450176' status='failed' stop='1608131483394'>
+            <name>test something | {"name":"Pavel","lastName":"Garbuz"}</name>
+            <title>test something | {"name":"Pavel","lastName":"Garbuz"}</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1608131450857' status='passed' stop='1608131453387'>
+                    <name>I am on page "http://google.com"</name>
+                    <title>I am on page "http://google.com"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1608131453388' status='failed' stop='1608131483394'>
+                    <name>I wait for element "#introAgreeButton span[jsslot]", 30</name>
+                    <title>I wait for element "#introAgreeButton span[jsslot]", 30</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Last Seen Screenshot' source='1cff6dac-0834-4513-b117-b9c773c8c210-attachment.png' type='image/png' size='100662'/>
+            </attachments>
+            <failure>
+                <message>element (#introAgreeButton span[jsslot]) still not present on page after 30 sec
+                waiting for selector "#introAgreeButton span[jsslot]" failed: timeout 30000ms exceeded</message>
+                <stack-trace>Error: element (#introAgreeButton span[jsslot]) still not present on page after 30 sec
+                waiting for selector "#introAgreeButton span[jsslot]" failed: timeout 30000ms exceeded
+                    at C:\IT\codeceptjs_puppeteer_DDT\node_modules\codeceptjs\lib\helper\Puppeteer.js:1947:13</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1608131484168' status='failed' stop='1608131517362'>
+            <name>test something | {"name":"Marina","lastName":"Nehay"}</name>
+            <title>test something | {"name":"Marina","lastName":"Nehay"}</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1608131484769' status='passed' stop='1608131487359'>
+                    <name>I am on page "http://google.com"</name>
+                    <title>I am on page "http://google.com"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1608131487359' status='failed' stop='1608131517361'>
+                    <name>I wait for element "#introAgreeButton span[jsslot]", 30</name>
+                    <title>I wait for element "#introAgreeButton span[jsslot]", 30</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Last Seen Screenshot' source='cb9a82db-31f8-454b-a5f0-dcdfd5bf1d00-attachment.png' type='image/png' size='100662'/>
+            </attachments>
+            <failure>
+                <message>element (#introAgreeButton span[jsslot]) still not present on page after 30 sec
+                waiting for selector "#introAgreeButton span[jsslot]" failed: timeout 30000ms exceeded</message>
+                <stack-trace>Error: element (#introAgreeButton span[jsslot]) still not present on page after 30 sec
+                waiting for selector "#introAgreeButton span[jsslot]" failed: timeout 30000ms exceeded
+                    at C:\IT\codeceptjs_puppeteer_DDT\node_modules\codeceptjs\lib\helper\Puppeteer.js:1947:13</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

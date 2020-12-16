@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "npx codeceptjs run -p pauseOnFail --steps plugins --allure"
+    "test": "npx codeceptjs run -p pauseOnFail --steps --plugins allure"
   },
   "author": "",
   "license": "ISC",
