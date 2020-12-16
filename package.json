@@ -1,0 +1,16 @@
+{
+  "name": "codeceptjs_puppeteer_ddt",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx codeceptjs run -p pauseOnFail --steps plugins --allure"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "allure-commandline": "^2.13.0",
+    "codeceptjs": "^3.0.2",
+    "puppeteer": "^1.19.0"
+  }
+}
